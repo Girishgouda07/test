@@ -2,10 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="profile">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .profile-bio {
+            font-size: 16px;
+            margin: 10px 0 20px;
+            color: #666;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .contact-info li {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="profile-container">
+        
+        <h1 class="profile-name">girish</h1>
+        <p class="profile-bio">Web Developer | Tech Enthusiast | Lifelong Learner</p>
+        <ul class="contact-info">
+            <li>Email: <a href="eng23cs0068@dsu.dsu.in">eng23cs0068@dsu.dsu.in</a></li>
+            <li>Phone: <a href="6364141206">6364141206</a></li>
+            <li>Website: <a href="https://github.com/" target="_blank">https://github.com/</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+        </ul>
+    </div>
 </body>
 </html>
